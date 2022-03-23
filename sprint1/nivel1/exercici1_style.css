@@ -1,152 +1,65 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 525px;
+*{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
 }
-
-.first-block {
+.container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 1200px;
-    gap: 15px;
-    height: 178px;
+    flex-flow: column nowrap;
+}
+.block1{
+    display: flex;
+    flex-flow: column nowrap;
     background-color: rgb(238, 178, 178);
 }
-
-.first-block-element {
+    .header{
+        display: flex;
+        flex-flow: row nowrap;
+        background-color: rgb(173, 13, 27);
+    }
+        .logo, .social{
+            flex: 1 1 auto;
+            background-color: rgb(204, 37, 37);
+        }
+        .nav{
+            flex: 4 1 auto;
+            background-color: rgb(204, 37, 37);
+        }
+    .subtitle{
+        background-color: rgb(224, 111, 111);
+    }
+        .phrase{
+            background-color: rgb(204, 37, 37);
+        }
+.block2 {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 1159px;
-    height: 62px;
-    background-color: rgb(173, 13, 27);
-}
-
-.first-block-item1 {
-    display: flex;
-    width: 166px;
-    height: 20px;
-    background-color: rgb(204, 37, 37);
-}
-
-.first-block-item2 {
-    display: flex;
-    width: 744px;
-    height: 20px;
-    background-color: rgb(204, 37, 37)
-}
-
-.first-block-item3 {
-    display: flex;
-    width: 166px;
-    height: 20px;
-    background-color: rgb(204, 37, 37);
-}
-.first-block-element2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 1159px;
-    height: 62px;
-    background-color: rgb(224, 111, 111);
-}
-
-.first-block-item4 {
-    display: flex;
-    width: 1117px;
-    height: 20px;
-    background-color: rgb(204, 37, 37);
-}
-
-.second-block {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 1200px;
-    height: 188px;
     background-color: rgb(238, 178, 178);
 }
+    .articles{
+        display: flex;
+        flex-flow: row wrap;
+        flex: 5 1 auto;
+        background-color: rgb(173, 13, 27);
+    }
+        .article{
+            flex: 1 1 40%;
+            background-color: rgb(204, 37, 37);
+        }
+        .foot{
+            flex: 1 1 100%;
+            background-color: rgb(224, 111, 111);
+        }
+    .aside{
+        flex: 3 1 auto;
+        background-color: rgb(224, 111, 111);
+    }
+        .element{
+            background-color: rgb(204, 37, 37);
+        }
 
-.second-block-element {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 792px;
-    height: 147px;
-    background-color: rgb(173, 13, 27);
-}
-
-.second-block-items {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.second-block-item1,.second-block-item2 {
-    width: 365px;
-    height: 20px;
-    background-color: rgb(204, 37, 37)
-}
-
-.second-block-items2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly
-}
-
-.second-block-item3,.second-block-item4 {
-    width: 365px;
-    height: 20px;
-    background-color: rgb(204, 37, 37)
-}
-
-.second-block-item5 {
-    align-self: center;
-    width: 751px;
-    height: 20px;
-    background-color: rgb(204, 37, 37);
-}
-
-.second-block-element2 {
-    display: flex;
-    flex-direction: start;
-    flex-direction: column;
-    gap: 15px;
-    align-items: center;    
-    width: 343px;
-    height: 147px;
-    background-color: rgb(224, 111, 111);
-}
-
-.second-block-item6 {
-    margin-top: 20px;
-    width: 302px;
-    height: 20px;
-    background-color: rgb(204, 37, 37);
-}
-
-.second-block-item7 {
-    width: 302px;
-    height: 20px;
-    background-color: rgb(204, 37, 37);
-}
-
-.third-block {
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
-    width: 1200px;
-    height: 63px;
+.footer {
     background-color: rgb(238, 178, 178);
 }
-
-.third-block-element {
-    display: flex;
-    width: 1159px;
-    height: 20px;
-    background-color: rgb(204, 37, 37)
-}
+    .element3{
+        background-color: rgb(204, 37, 37);
+    }
