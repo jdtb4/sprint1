@@ -73,34 +73,33 @@ a{
         }
 .block2 {
     display: flex;
-    background-color: rgb(238, 178, 178);
+    background: rgb(163, 163, 163);
 }
     .articles{
         display: flex;
         flex-flow: row wrap;
         flex: 5 1 auto;
-        background-color: rgb(173, 13, 27);
+        background-color: rgb(197, 194, 194);
     }
         .article{
             flex: 1 1 40%;
-            background-color: rgb(204, 37, 37);
+            background-color: rgb(218, 214, 214);
         }
         .foot{
             flex: 1 1 100%;
-            background-color: rgb(224, 111, 111);
         }
     .aside{
         flex: 3 1 auto;
-        background-color: rgb(224, 111, 111);
+        background-color: rgb(197, 194, 194);;
     }
         .element{
-            background-color: rgb(204, 37, 37);
+            background-color: rgb(218, 214, 214);;
         }
 .footer {
-    background-color: rgb(238, 178, 178);
+    background-color: rgb(163, 163, 163);
 }
     .element3{
-        background-color: rgb(204, 37, 37);
+        background-color: rgb(218, 214, 214);
     }
 @media all and (max-width: 800px){
     .block2{
